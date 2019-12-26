@@ -1,19 +1,19 @@
 <template>
 
-    <basicTable :dataRows ="dataRows"  >
+    <basicTable  >
         can add any content in solt tag in bascik-table teplate
     </basicTable>
 </template>
 <script>
     export default {
-        props: {
-            dataRows: {
-                required: true,
-
-
-
-            },
-
-        },
+        // props: {
+        //     dataRows: {
+        //         required: true,
+        //
+        //
+        //
+        //     },
+        //
+        // },
     }
 </script>

@@ -25,15 +25,15 @@
 <script>
 
     export default {
-        props: {
-            dataRows: {
-                required: true,
-
-
-
-            },
-
-        },
+        // props: {
+        //     dataRows: {
+        //         required: true,
+        //
+        //
+        //
+        //     },
+        //
+        // },
     }
 
 

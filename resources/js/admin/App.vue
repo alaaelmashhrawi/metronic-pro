@@ -54,7 +54,7 @@
 
                                 <!--Begin::Dashboard 1-->
 
-                                <portlet :dataRows="dataRows">
+                                <portlet >
 
                                 </portlet>
                                 <!--End::Dashboard 1-->
@@ -1086,7 +1086,6 @@
                         CompanyName:'unified idea',
                         Status:'done',
                         type:'lourm ipusom',
-                        action:'add - delete'
 
 
                     },
@@ -1097,7 +1096,6 @@
                     CompanyName:'unified idea',
                     Status:'done',
                     type:'lourm ipusom',
-                    action:'add - delete'
 
 
                 },
@@ -1108,7 +1106,6 @@
                     CompanyName:'unified idea',
                     Status:'done',
                     type:'lourm ipusom',
-                    action:'add - delete'
 
 
                 },
@@ -1119,7 +1116,6 @@
                     CompanyName:'unified idea',
                     Status:'done',
                     type:'lourm ipusom',
-                    action:'add - delete'
 
 
                 },
@@ -1127,10 +1123,9 @@
                     OrderID: 5,
                     Country: 'palestine',
                     ShipDate: '20-10-2016',
-                    CompanyName:'unified idea',
+                    CompanyName:'Bechtelar, Wisoky and Homenick',
                     Status:'done',
-                    type:'lourm ipusom',
-                    action:'add - delete'
+                    type:'Online',
 
 
                 },
@@ -1138,10 +1133,9 @@
                     OrderID: 6,
                     Country: 'palestine',
                     ShipDate: '20-10-2016',
-                    CompanyName:'unified idea',
+                    CompanyName:'Stanton, Friesen and Grant',
                     Status:'done',
                     type:'lourm ipusom',
-                    action:'add - delete'
 
 
                 },
