@@ -54,7 +54,7 @@
 
                                 <!--Begin::Dashboard 1-->
 
-                                <portlet>
+                                <portlet :dataRows="dataRows">
 
                                 </portlet>
                                 <!--End::Dashboard 1-->
@@ -1042,24 +1042,139 @@
     </div>
 </template>
 <!--<script>-->
-    <!--import vNav from './template/nav/side-menu'-->
-    <!--import TopHeader from './template/nav/top-header'-->
-    <!--import BottomHeader from './template/nav/bottom-header'-->
-    <!--import portlet from './template/main-portlet/portlet'-->
+<!--import vNav from './template/nav/side-menu'-->
+<!--import TopHeader from './template/nav/top-header'-->
+<!--import BottomHeader from './template/nav/bottom-header'-->
+<!--import portlet from './template/main-portlet/portlet'-->
 
 
-    <!--export default {-->
-        <!--name: 'app',-->
-        <!--components: {-->
-            <!--vNav,-->
-            <!--TopHeader,-->
-            <!--BottomHeader,-->
-            <!--portlet-->
+<!--export default {-->
+<!--name: 'app',-->
+<!--components: {-->
+<!--vNav,-->
+<!--TopHeader,-->
+<!--BottomHeader,-->
+<!--portlet-->
 
 
-        <!--}-->
-    <!--}-->
+<!--}-->
+<!--}-->
 <!--</script>-->
+
+
+<script>
+
+
+    export default {
+
+
+        provide() {
+
+            return {
+                dataRows: this.dataRows
+            }
+        },
+        data() {
+            return {
+
+
+            dataRows: [
+                    {
+                        OrderID: 1,
+                        Country: 'palestine',
+                        ShipDate: '20-10-2016',
+                        CompanyName:'unified idea',
+                        Status:'done',
+                        type:'lourm ipusom',
+                        action:'add - delete'
+
+
+                    },
+                {
+                    OrderID: 2,
+                    Country: 'palestine',
+                    ShipDate: '20-10-2016',
+                    CompanyName:'unified idea',
+                    Status:'done',
+                    type:'lourm ipusom',
+                    action:'add - delete'
+
+
+                },
+                {
+                    OrderID: 3,
+                    Country: 'palestine',
+                    ShipDate: '20-10-2016',
+                    CompanyName:'unified idea',
+                    Status:'done',
+                    type:'lourm ipusom',
+                    action:'add - delete'
+
+
+                },
+                {
+                    OrderID: 4,
+                    Country: 'palestine',
+                    ShipDate: '20-10-2016',
+                    CompanyName:'unified idea',
+                    Status:'done',
+                    type:'lourm ipusom',
+                    action:'add - delete'
+
+
+                },
+                {
+                    OrderID: 5,
+                    Country: 'palestine',
+                    ShipDate: '20-10-2016',
+                    CompanyName:'unified idea',
+                    Status:'done',
+                    type:'lourm ipusom',
+                    action:'add - delete'
+
+
+                },
+                {
+                    OrderID: 6,
+                    Country: 'palestine',
+                    ShipDate: '20-10-2016',
+                    CompanyName:'unified idea',
+                    Status:'done',
+                    type:'lourm ipusom',
+                    action:'add - delete'
+
+
+                },
+
+                ],
+                dataRows2: [
+                    {
+                        name: '22aa',
+                        age: 35,
+                    },
+                    {
+                        name: '22Jill',
+                        age: 45,
+                    },
+                    {
+                        name: 'John',
+                        age: 55,
+                    },
+
+                ],
+
+            }
+
+        },
+
+        methods: {},
+
+        computed: {},
+    }
+
+
+</script>
+
 <style lang="css">
     @import "./assets/plugins/custom/fullcalendar/fullcalendar.bundle.css";
     @import "./assets/plugins/global/plugins.bundle.css";

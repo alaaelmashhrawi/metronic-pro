@@ -8,7 +8,8 @@ import portletBody from './template/main-portlet/portlet-components/portletBody'
 import portletFooter from './template/main-portlet/portlet-components/portletFooter'
 import pagination from './template/pagination'
 import fliter from './template/filters/fliter'
-import basicTable from './template/basicTable'
+import basicTable from './table/basicTable'
+import RowOfTable from './table/RowOfTable'
 // import TableRow  from './template/TableRow'
 
 
@@ -33,6 +34,7 @@ Vue.component('portletFooter', portletFooter)
 Vue.component('fliter', fliter)
 Vue.component('pagination', pagination)
 Vue.component('basicTable', basicTable)
+Vue.component('TableRow', RowOfTable)
 
 
 

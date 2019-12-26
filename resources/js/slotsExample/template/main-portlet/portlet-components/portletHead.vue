@@ -21,7 +21,7 @@
         props: {
             title: {
                 type: String,
-                default: 'here titel can binding this props  in  slot'
+                default: 'here titele '
             }
         },
         mounted() {

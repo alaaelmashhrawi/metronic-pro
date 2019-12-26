@@ -62,8 +62,8 @@
                                     <div class="panle">
                                         <div class="panel-heading">
 
-                                            #ex1
-                                            <form-helper>
+                                            <h2> #ex1</h2>
+                                            <boxcontent>
 
 
                                                 <!--<h1> this is title</h1>-->
@@ -71,7 +71,7 @@
 
                                                 <h2 slot="title">this is title</h2>
                                                 <p slot="para"> this is paragraph</p>
-                                            </form-helper>
+                                            </boxcontent>
                                         </div>
                                     </div>
 
@@ -80,24 +80,24 @@
                                     <!--simple slot example #2-->
                                     <div class="panle">
                                         <div class="panel-heading">
-                                            #ex2
+                                            <h2> #ex2</h2>
 
-                                            <form-helper>
+                                            <boxcontentll>
 
                                                 <!--<h1> this is title</h1>-->
                                                 <!--<p> this is paragraph</p>-->
-                                                <div  slot="child" class="child">
-                                                    <h2 slot="title">{{ title }}</h2>
-                                                    <p slot="para"> this is paragraph</p>
-                                                </div>
-                                            </form-helper>
+                                                <div slot="child" class="child">
+                                                <h2 slot="title">{{ title }}</h2>
+                                                <p slot="para"> this is paragraph</p>
+                                            </div>
+                                            </boxcontentll>
                                         </div>
                                     </div>
                                     <!--End::Dashboard 1-->
 
-
+                                    <hr>
                                     <!--simple slot example #3-->
-
+                                    <h2>#ex</h2>
                                     <portlet></portlet>
 
 

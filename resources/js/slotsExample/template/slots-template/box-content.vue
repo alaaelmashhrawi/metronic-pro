@@ -1,4 +1,8 @@
 <template>
+
+
+
+
     <div>
         <h1>slot  examples</h1>
 
@@ -10,6 +14,9 @@
         </slot>
 
     </div>
+
+
+
 </template>
 <style>
     p {

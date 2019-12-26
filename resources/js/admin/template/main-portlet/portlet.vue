@@ -13,7 +13,7 @@
             </fliter>
 
             <!--portlet-body-->
-            <portletBody>
+            <portletBody  >
             </portletBody>
             <!--end portlet-body-->
             <!--portlet-body-->
@@ -23,5 +23,18 @@
     </div>
 </template>
 <script>
+
+    export default {
+        props: {
+            dataRows: {
+                required: true,
+
+
+
+            },
+
+        },
+    }
+
 
 </script>

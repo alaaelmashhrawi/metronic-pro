@@ -9,7 +9,7 @@ import portletFooter from './template/main-portlet/portlet-components/portletFoo
 import pagination from './template/pagination'
 import fliter from './template/filters/fliter'
 import basicTable from './template/basicTable'
-import formHelper from './template/slots-template/form-helper'
+import boxcontent from './template/slots-template/box-content'
 
 
 Vue.component('vNav', vNav)
@@ -22,7 +22,7 @@ Vue.component('portletFooter', portletFooter)
 Vue.component('fliter', fliter)
 Vue.component('pagination', pagination)
 Vue.component('basicTable', basicTable)
-Vue.component('form-helper',formHelper)
+Vue.component('box-content.r',boxcontent)
 
 
 
