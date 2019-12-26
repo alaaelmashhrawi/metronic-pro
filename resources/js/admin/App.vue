@@ -1141,27 +1141,18 @@
                 },
 
                 ],
-                dataRows2: [
-                    {
-                        name: '22aa',
-                        age: 35,
-                    },
-                    {
-                        name: '22Jill',
-                        age: 45,
-                    },
-                    {
-                        name: 'John',
-                        age: 55,
-                    },
 
-                ],
 
             }
 
         },
 
-        methods: {},
+        methods: {
+            deleteEvent: function(index) {
+                this.proplabels.splice(index, 1);
+            }
+        },
+
 
         computed: {},
     }

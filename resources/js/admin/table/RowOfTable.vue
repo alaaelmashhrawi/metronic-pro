@@ -1,14 +1,14 @@
 <template>
     <div>
 
-        <tr v-for="row in dataRows" data-row="0" class="kt-datatable__row" style="left: 0px;">
+        <tr   v-for="(row, index)   in dataRows"  :row="row" data-row="0" class="kt-datatable__row" style="left: 0px;">
 
 
             <td class="kt-datatable__cell--center kt-datatable__cell kt-datatable__cell--check"
                 v-for="(value, key) in row">
                 <!--{{ key }} : {{ value }}--> {{ value }}
             </td>
-            <td data-field="Actions" data-autohide-disabled="false" class="kt-datatable__cell"><span
+            <td  data-field="Actions" data-autohide-disabled="false" class="kt-datatable__cell"><span
                     style="overflow: visible; position: relative; width: 110px;">						<div
                     class="dropdown">							<a href="javascript:;"
                                                                     class="btn btn-sm btn-clean btn-icon btn-icon-md"
@@ -25,7 +25,7 @@
                     class="la la-edit"></i>						</a>						<a href="javascript:;"
                                                                                                   class="btn btn-sm btn-clean btn-icon btn-icon-md"
                                                                                                   title="Delete">							<i
-                    class="la la-trash"></i>						</a>					</span></td>
+                    class="la la-trash" v-on:click="deleteEvent"  ></i>						</a>					</span></td>
         </tr>
     </div>
 </template>
@@ -33,6 +33,17 @@
 <script>
     export default {
         inject: ['dataRows'],
+
+
+        methods: {
+            deleteEvent: function (index) {
+                 console.log("delet this  row");
+                 //console.log("delet this  row");
+                   this.dataRows.splice(index, 1);
+
+            }
+            },
+
         // props: {
         //     dataRows: {
         //         required: true,
